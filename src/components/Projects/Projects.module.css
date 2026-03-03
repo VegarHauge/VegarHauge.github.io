@@ -1,0 +1,42 @@
+.projects {
+  background: var(--color-bg);
+}
+
+.accent {
+  background: linear-gradient(135deg, var(--color-primary-light), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-xl);
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-2xl);
+}
+
+.moreBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 0.8rem 1.8rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-border-hover);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  transition: border-color var(--transition-fast), color var(--transition-fast),
+    transform var(--transition-fast), background var(--transition-fast);
+}
+.moreBtn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary-light);
+  background: var(--color-primary-glow);
+  transform: translateY(-1px);
+}
