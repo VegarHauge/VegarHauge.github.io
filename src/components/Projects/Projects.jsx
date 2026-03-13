@@ -11,7 +11,6 @@ const PROJECTS = [
     tags: ['React', 'Python', 'SQL', 'Docker','Kubernetes', 'ML',],
     links: [
       { label: 'GitHub', href: 'https://github.com/VegarHauge/MOBILIO', type: 'github' },
-      { label: 'Live demo', href: '#', type: 'demo' },
     ],
   },
    {
@@ -21,8 +20,8 @@ const PROJECTS = [
       'A scalable data processing pipeline built with Apache Spark that follows the medallion architecture for NY Yellow Taxi trip data. It includes a PySpark ETL workflow, data quality checks, and integration with OpenStack. Specialliced in checking performance of different cluster configuration',
     tags: ['Spark', 'Python', 'OpenStack', 'PySpark'],
     links: [
-      { label: 'GitHub', href: SITE.github, type: 'github' },
-      { label: 'Watch demo', href: '#', type: 'youtube' },
+      { label: 'GitHub', href: 'https://github.com/VegarHauge/SparkPipeline', type: 'github' },
+      { label: 'Report', href: '/reports/Spark_Pipeline_Project_Report.pdf', type: 'pdf' },
     ],
   },
     {
@@ -32,8 +31,7 @@ const PROJECTS = [
       'A fullstack E-Commerce website for ski equipment, built with Vue.js, Python, SQLite, and Docker. It features a user-friendly interface for browsing and purchasing ski gear, an admin dashboard for managing inventory, orders and with an advanced analytics dashboard. A secure authentication system. The project is containerized with Docker for easy deployment.',
     tags: ['Vue', 'Python', 'SQLite', 'Docker'],
     links: [
-      { label: 'GitHub', href: SITE.github, type: 'github' },
-      { label: 'Watch demo', href: '#', type: 'youtube' },
+      { label: 'GitHub', href: 'https://github.com/VegarHauge/SKIMANIA', type: 'github' },
     ],
   },
     {
@@ -43,8 +41,7 @@ const PROJECTS = [
       'A Foodora clone for the University of Stavanger, built with C#, Razor Pages, SQLite, and Docker. Features threes different user roles, customer, courier and admin. Customers can browse and order food from campus restaurants, couriers can accept deliveries, and admins can oversee the entire operation. Has an automatic email system that notifies users of order status changes. Stripe integration for payments.',
     tags: ['C#', 'Docker', 'Razor Pages', 'SQLite'],
     links: [
-      { label: 'GitHub', href: SITE.github, type: 'github' },
-      { label: 'Watch demo', href: '#', type: 'youtube' },
+      { label: 'GitHub', href: 'https://github.com/VegarHauge/CampusEats', type: 'github' },
     ],
   },
 {
@@ -54,8 +51,7 @@ const PROJECTS = [
       'A desktop app that runs on the raspberry pi, that turns it into a retro gaming console. Built with Rust and React. The app features a sleek UI for browsing and launching games, and supports a wide range of retro game emulators.  ',
     tags: ['Raspberry Pi', 'Rust', 'React'],
     links: [
-      { label: 'GitHub', href: SITE.github, type: 'github' },
-      { label: 'Watch demo', href: '#', type: 'youtube' },
+      { label: 'GitHub', href: 'https://github.com/VegarHauge/RetroGamePi', type: 'github' },
     ],
   },
   {
@@ -66,7 +62,6 @@ const PROJECTS = [
     tags: ['Python', 'Machine Learning', 'Data Analysis'],
     links: [
       { label: 'GitHub', href: 'https://github.com/VegarHauge/Forecasting_Daily_Household_Energy_Consumption', type: 'github' },
-      { label: 'Watch demo', href: '#', type: 'youtube' },
       { label: 'Report', href: '/reports/Forecasting_Daily_Household_Energy.pdf', type: 'pdf' }
     ],
   },
@@ -77,7 +72,7 @@ const PROJECTS = [
       'SUMMARY',
     tags: ['Technology1', 'Technology2', 'Technology3'],
     links: [
-      { label: 'GitHub', href: SITE.github, type: 'github' },
+      { label: 'GitHub', href: 'https://github.com/VegarHauge/PROJECT_NAME', type: 'github' },
       { label: 'Watch demo', href: '#', type: 'youtube' },
     ],
   }, */
