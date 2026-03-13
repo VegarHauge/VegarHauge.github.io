@@ -67,7 +67,7 @@ const PROJECTS = [
     links: [
       { label: 'GitHub', href: 'https://github.com/VegarHauge/Forecasting_Daily_Household_Energy_Consumption', type: 'github' },
       { label: 'Watch demo', href: '#', type: 'youtube' },
-      { label: 'Report', href: 'public/reports/Forecasting_Daily_Household_Energy.pdf', type: 'pdf' }
+      { label: 'Report', href: '/reports/Forecasting_Daily_Household_Energy.pdf', type: 'pdf' }
     ],
   },
     /* {
