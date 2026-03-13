@@ -10,7 +10,7 @@ const PROJECTS = [
       'A full-stack e-commerce solution built with React, Stripe, and PostgreSQL. Features real-time inventory, order tracking, and an admin dashboard. Has a ML powered reccomendation system, that reccomends products based on similarity and co-purchasing patterns. Working cloud setup with google kubernetes engine.',
     tags: ['React', 'Python', 'SQL', 'Docker','Kubernetes', 'ML',],
     links: [
-      { label: 'GitHub', href: SITE.github, type: 'github' },
+      { label: 'GitHub', href: 'https://github.com/VegarHauge/MOBILIO', type: 'github' },
       { label: 'Live demo', href: '#', type: 'demo' },
     ],
   },
@@ -58,7 +58,19 @@ const PROJECTS = [
       { label: 'Watch demo', href: '#', type: 'youtube' },
     ],
   },
-    {
+  {
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
+    title: 'Forecasting Daily Household Energy Consumption',
+    summary:
+      'SUMMARY',
+    tags: ['Python', 'Machine Learning', 'Data Analysis'],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/VegarHauge/Forecasting_Daily_Household_Energy_Consumption', type: 'github' },
+      { label: 'Watch demo', href: '#', type: 'youtube' },
+      { label: 'Report', href: 'public/reports/Forecasting_Daily_Household_Energy.pdf', type: 'pdf' }
+    ],
+  },
+    /* {
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
     title: 'TITLE',
     summary:
@@ -68,7 +80,7 @@ const PROJECTS = [
       { label: 'GitHub', href: SITE.github, type: 'github' },
       { label: 'Watch demo', href: '#', type: 'youtube' },
     ],
-  },
+  }, */
 
 ]
 

@@ -129,3 +129,8 @@
   color: var(--color-accent);
   background: var(--color-accent-glow);
 }
+.pdf:hover {
+  border-color: #e85d26;
+  color: #ff9166;
+  background: rgba(232, 93, 38, 0.1);
+}
