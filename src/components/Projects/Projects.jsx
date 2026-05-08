@@ -21,7 +21,7 @@ const PROJECTS = [
     tags: ['Ollama', 'Python', 'LLM', 'AI'],
     links: [
       { label: 'GitHub', href: 'https://github.com/VegarHauge/TikTokFactChecker', type: 'github' },
-      { label: 'Report', href: '/reports/TikTok_Fact_Checker_Report.pdf', type: 'pdf' },
+      { label: 'Report', href: '/reports/Multimodal_Fake_News_Detection_on_FakeTT.pdf', type: 'pdf' },
     ],
   },
    {
