@@ -6,7 +6,7 @@ export const SITE = {
   title: 'Full-Stack Developer & Creative Technologist',
   email: 'vegarhauge@gmail.com',
   github: 'https://github.com/VegarHauge',
-  linkedin: 'https://linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/vegar-hauge-679713341/',
   youtube: 'https://youtube.com/@VegarHauge',
 }
 

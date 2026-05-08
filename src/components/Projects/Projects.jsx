@@ -17,7 +17,7 @@ const PROJECTS = [
     image: 'https://images.unsplash.com/photo-1709285671944-a27fcbd207eb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     title: 'TikTok Fact Checker',
     summary:
-      'A two-system pipeline for classifying 242 short TikTok videos as fake or real. The first system is a text-only TF-IDF + Logistic Regression baseline. The second is a prompted multimodal-LLM verifier that consumes the post text, four sampled video frames, and a balanced few-shot exemplar set; we extended it with a multi-stage pipeline that first distils each videos spoken transcript and on-screen text into a structured list of factual claims, then feeds those claims to the verifier alongside the frames. Best held-out test result: macro-F1 = 0.758, beating the text-only baseline at 0.627. The most interesting finding was that the validation-best configurations transferred worst to test because the validation/test class balance flips (60% → 32% fake), so configurations tuned to over-predict "fake" got rewarded on val and punished on test.',
+      'A multimodal fake-news classifier for short TikTok videos, combining a TF-IDF text baseline with a prompted multimodal-LLM verifier. It includes frame sampling, Whisper transcripts, OCR, and an LLM-based claim extractor that distils each videos text content into structured claims for the verifier to weigh. Specialised in analysing how a validation/test class-balance shift flips which prompting tricks look best.',
     tags: ['Ollama', 'Python', 'LLM', 'AI'],
     links: [
       { label: 'GitHub', href: 'https://github.com/VegarHauge/TikTokFactChecker', type: 'github' },
@@ -36,7 +36,7 @@ const PROJECTS = [
     ],
   },
     {
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1552853662-8f707e1cb336?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     title: 'S K I M A N I A',
     summary:
       'A fullstack E-Commerce website for ski equipment, built with Vue.js, Python, SQLite, and Docker. It features a user-friendly interface for browsing and purchasing ski gear, an admin dashboard for managing inventory, orders and with an advanced analytics dashboard. A secure authentication system. The project is containerized with Docker for easy deployment.',
@@ -56,7 +56,7 @@ const PROJECTS = [
     ],
   },
 {
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ',
     title: 'Retro Game Pi',
     summary:
       'A desktop app that runs on the raspberry pi, that turns it into a retro gaming console. Built with Rust and React. The app features a sleek UI for browsing and launching games, and supports a wide range of retro game emulators.  ',
@@ -66,10 +66,10 @@ const PROJECTS = [
     ],
   },
   {
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
+    image: 'images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     title: 'Forecasting Daily Household Energy Consumption',
     summary:
-      'SUMMARY',
+      'A Jupyter Notebook–based project focused on forecasting daily household energy consumption using historical usage data. It covers data preparation and exploratory analysis, feature engineering, and building/evaluating time-series forecasting models to predict future daily demand and compare model performance.',
     tags: ['Python', 'Machine Learning', 'Data Analysis'],
     links: [
       { label: 'GitHub', href: 'https://github.com/VegarHauge/Forecasting_Daily_Household_Energy_Consumption', type: 'github' },
