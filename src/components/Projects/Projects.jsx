@@ -4,7 +4,7 @@ import { SITE } from '../../config/site'
 
 const PROJECTS = [
   {
-    image: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1560209617-059c0bd661ba?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     title: 'MOBILIO',
     summary:
       'A full-stack e-commerce solution built with React, Stripe, and PostgreSQL. Features real-time inventory, order tracking, and an admin dashboard. Has a ML powered reccomendation system, that reccomends products based on similarity and co-purchasing patterns. Working cloud setup with google kubernetes engine.',
@@ -14,7 +14,18 @@ const PROJECTS = [
     ],
   },
    {
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1709285671944-a27fcbd207eb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    title: 'TikTok Fact Checker',
+    summary:
+      'A two-system pipeline for classifying 242 short TikTok videos as fake or real. The first system is a text-only TF-IDF + Logistic Regression baseline. The second is a prompted multimodal-LLM verifier that consumes the post text, four sampled video frames, and a balanced few-shot exemplar set; we extended it with a multi-stage pipeline that first distils each videos spoken transcript and on-screen text into a structured list of factual claims, then feeds those claims to the verifier alongside the frames. Best held-out test result: macro-F1 = 0.758, beating the text-only baseline at 0.627. The most interesting finding was that the validation-best configurations transferred worst to test because the validation/test class balance flips (60% → 32% fake), so configurations tuned to over-predict "fake" got rewarded on val and punished on test.',
+    tags: ['Ollama', 'Python', 'LLM', 'AI'],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/VegarHauge/TikTokFactChecker', type: 'github' },
+      { label: 'Report', href: '/reports/TikTok_Fact_Checker_Report.pdf', type: 'pdf' },
+    ],
+  },
+   {
+    image: 'https://images.unsplash.com/photo-1628947733273-cdae71c9bfd3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     title: 'Spark Pipeline',
     summary:
       'A scalable data processing pipeline built with Apache Spark that follows the medallion architecture for NY Yellow Taxi trip data. It includes a PySpark ETL workflow, data quality checks, and integration with OpenStack. Specialliced in checking performance of different cluster configuration',
