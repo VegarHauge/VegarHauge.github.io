@@ -66,7 +66,7 @@ const PROJECTS = [
     ],
   },
   {
-    image: 'images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     title: 'Forecasting Daily Household Energy Consumption',
     summary:
       'A Jupyter Notebook–based project focused on forecasting daily household energy consumption using historical usage data. It covers data preparation and exploratory analysis, feature engineering, and building/evaluating time-series forecasting models to predict future daily demand and compare model performance.',
